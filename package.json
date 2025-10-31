@@ -1,0 +1,16 @@
+{
+  "name": "zombie-pants",
+  "version": "1.0.0",
+  "description": "Zombie Pants NFT deploy script for Base",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "devDependencies": {
+    "hardhat": "2.20.1",
+    "@nomicfoundation/hardhat-toolbox": "2.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
